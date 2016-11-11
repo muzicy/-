@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.header {width:800px;height:80px; margin:10px auto; padding:2px; background:#3CF; border:1px solid #aaa;}
+.header a {margin:0 0 0 10px; line-height:80px; font-weight:700px; font-size:36px;float:left;}
+.skin {float:right; margin:10px; padding:8px; width:120px; background:#ccc;}
+.skin li {float:left; margin-right:4px; width:15px; height:15px; text-indent:-9999px; overflow:hidden;
+  display:block; cursor:pointer; background-image:url(../images/theme.gif);}
+  
+ /*通过给li定位来设置不同的背景颜色*/
+ .skin0 {background-position:0 0;}
+ .skin1 {background-position:15px 0;}
+ .skin2 {background-position:35px 0;}
+ .skin3 {background-position:55px 0;}
+ .skin4 {background-position:75px 0;}
+ .skin5 {background-position:95px 0;}
+ .skin0.selected {background-position:0 15px;}
+ .skin1.selected {background-position:15px 15px;}
+ .skin2.selected {background-position:35px 15px;}
+ .skin3.selected {background-position:55px 15px;}
+ .skin4.selected {background-position:75px 15px;}
+ .skin5.selected {background-position:95px 15px;}

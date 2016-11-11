@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+.navigation {width:784px; margin:8px auto; padding:8px; background:#3CF; height:20px; }
+.navigation li {float:left; margin-right:16px; position:relative; border:1px solid #ccc; border-radius:6px;}
+.navigation li a {display:block; padding:0 8px;  font-weight:700px;}
+.navigation li a:hover {background:#ccc;}
+.navigation li ul {background:#C9C; position:absolute; width:80px; overflow:hidden; display:none;background:#ccc;}
+.navigation li:hover ul {position:absolute; margin: 0 auto; display:block;}
+.navigation li ul li{border-bottom:1px solid #bbb; text-align:left; width:100%;padding-top:2px;}
+
